@@ -18,6 +18,7 @@ const HTTP_PORT = process.env.PORT || 8080;
 //process environment port or 8080
 
 app.use(bodyParser.json());
+
 app.use(cors());
 
 
